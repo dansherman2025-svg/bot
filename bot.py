@@ -2,7 +2,9 @@
 🧙 Сказочник — Telegram бот для малышей v2.1
 + Экран согласия с офертой и политикой конфиденциальности
 """
-
+import os
+import logging
+import json
 import logging
 import json
 import io
