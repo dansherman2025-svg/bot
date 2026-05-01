@@ -39,8 +39,8 @@ from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 # ──────────────────────────────────────────────
 # НАСТРОЙКИ
 # ──────────────────────────────────────────────
-BOT_TOKEN    = "ВАШ_TELEGRAM_BOT_TOKEN"
-CLAUDE_KEY   = "ВАШ_ANTHROPIC_API_KEY"
+BOT_TOKEN  = os.getenv("BOT_TOKEN", "")
+CLAUDE_KEY = os.getenv("CLAUDE_KEY", "")
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 DB_FILE      = "users.json"
 ADMIN_IDS    = []
